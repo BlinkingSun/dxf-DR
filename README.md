@@ -2,6 +2,16 @@
 
 **Open a STEP file, click a flat face, get a DXF.**
 
+<p align="center">
+  <a href="https://makerinparadise.com/dxf-dr/"><img src="docs/assets/makerinparadise-banner.jpg" alt="Maker in Paradise — try dxf-DR on the web" width="100%"></a>
+</p>
+<p align="center">
+  <strong><a href="https://makerinparadise.com/dxf-dr/">Try it on the web</a> — https://makerinparadise.com/dxf-dr/</strong>
+</p>
+<p align="center">
+The same engine runs in your browser via WebAssembly; nothing is uploaded — drop a STEP file on the page and export the DXF.
+</p>
+
 dxf-DR turns a 3D CAD solid into a 2D profile ready for laser, waterjet, plasma or CAM. Pick any flat
 face and export it two ways:
 
@@ -18,12 +28,12 @@ Binaries are attached to the [latest release](../../releases/latest).
 
 | | |
 |---|---|
-| macOS (Apple silicon) | `dxf-DR-macOS-AppleSilicon.dmg` — Developer ID signed and notarized |
-| Windows (x64) | see the release page |
+| macOS 26 (Apple silicon) | `dxf-DR-0.1.0-macOS-AppleSilicon.dmg` — Developer ID signed and notarized |
+| Windows 10/11 (x64) | `dxf-DR-0.1.0-Windows-x64-setup.exe` (NSIS) or `dxf-DR-0.1.0-Windows-x64.msi` — unsigned, SmartScreen warns on first run |
 
 ## Try it in the browser
 
-No install: **[makerinparadise.com/dxf-dr/](https://makerinparadise.com/dxf-dr/)**
+No install: **[makerinparadise.com/dxf-dr/](https://makerinparadise.com/dxf-dr/)** — the same engine as the desktop app, running in your browser; nothing is uploaded. Projection is limited to 313 faces in the browser; the desktop app has no limit.
 
 ## What it draws
 
